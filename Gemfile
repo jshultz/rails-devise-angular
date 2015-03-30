@@ -4,10 +4,9 @@ gem 'bundler', '>= 1.8.4'
 
 
 source 'https://rails-assets.org' do
-  gem 'rails-assets-bootstrap'
-  gem 'rails-assets-angular'
+  # gem 'rails-assets-bootstrap'
+  # gem 'rails-assets-angular'
   gem 'rails-assets-leaflet'
-  gem "rails-assets-angular-devise"
 end
 
 
@@ -35,6 +34,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Devise
 gem 'devise'
+
+gem 'angular-rails-templates'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

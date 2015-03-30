@@ -11,6 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+//= require bootstrap.min
+//= require angular/load
+//= require leaflet
 //= require jquery_ujs
 //= require turbolinks
+//= require angular-devise/devise.min
 //= require_tree .
